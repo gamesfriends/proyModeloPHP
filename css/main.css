@@ -1,0 +1,116 @@
+.mainMenu {
+  list-style-type: none;
+  background-color: #7c8eb6;
+  display: flex;
+  justify-content: space-around;
+}
+
+.mainMenu-item {
+  display: inline;
+  padding: 2em;
+}
+
+.mainMenu-item_link {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  font-size: 1.5em;
+}
+
+.mainMenu-item_link:hover {
+  color: brown;
+  transition: 300ms;
+}
+
+.footer {
+  font-family: "Ubuntu Mono", monospace;
+  background-color: #3939af;
+  width: 100%;
+  height: 200px;
+  display: flex;
+}
+
+.footer-logo {
+  width: 350px;
+  height: 200px;
+}
+
+.footer-logo-img {
+  max-width: 100%;
+}
+
+.footer h3 {
+  margin-bottom: 0.3em;
+}
+
+.footer p {
+  margin-bottom: 0.3em;
+}
+
+.titleHome {
+  text-align: center;
+  margin: 0.5em 0;
+  font-family: "Orelega One", cursive;
+  font-size: 2em;
+}
+
+.about {
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #5c5b5b6b;
+  border-radius: 20px;
+}
+
+.about h1 {
+  text-align: center;
+  margin-bottom: 0.5em;
+}
+
+.about-paragraph {
+  text-align: center;
+  line-height: 1.5em;
+}
+
+.tableHome {
+  background-color: #ed7c31be;
+  color: #FFF;
+  font-family: "Noto Sans JP", sans-serif;
+  border-collapse: collapse;
+  margin: 1em 0;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+}
+
+.tableHome-cellTh {
+  width: 200px;
+  height: 3em;
+}
+
+.tableHome-cell {
+  color: #000;
+  border: 1px solid black;
+  text-align: center;
+  height: 1.5em;
+}
+
+.par {
+  background-color: #f8c3a4;
+}
+
+.noPar {
+  background-color: rgba(255, 255, 255, 0.644);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #333;
+  color: #b69071;
+}
+
+/*# sourceMappingURL=main.css.map */

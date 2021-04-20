@@ -1,0 +1,23 @@
+.mainMenu {
+    list-style-type: none;
+    background-color: rgb(124, 142, 182);
+    display: flex;
+    justify-content: space-around;
+}
+
+.mainMenu-item {
+    display: inline;
+    padding: 2em;
+}
+
+.mainMenu-item_link {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+.mainMenu-item_link:hover {
+    color: brown;
+    transition: 300ms;
+}

@@ -1,0 +1,56 @@
+.titleHome {
+    text-align: center;
+    margin: 0.5em 0;
+    font-family: 'Orelega One', cursive;
+    font-size: 2em;
+}
+
+.about {
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #5c5b5b6b;
+    border-radius: 20px;
+}
+
+.about h1 {
+    text-align: center;
+    margin-bottom: 0.5em;
+}
+
+.about-paragraph {
+    text-align: center;
+    line-height: 1.5em;
+}
+
+
+.tableHome {
+    background-color: #ed7c31be;
+    color: #FFF;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-collapse: collapse;
+    margin: 1em 0;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 20px;
+}
+
+.tableHome-cellTh {
+    width: 200px;
+    height: 3em;
+}
+
+.tableHome-cell {
+    color: #000;
+    border: 1px solid black;
+    text-align: center;
+    height: 1.5em;
+}
+
+.par { 
+    background-color: #f8c3a4;
+}
+
+.noPar { 
+    background-color: rgba(255, 255, 255, 0.644);
+}
